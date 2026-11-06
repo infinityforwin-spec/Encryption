@@ -1,0 +1,5 @@
+def net_price(total_sales,discount,tax):
+    return total_sales*(1-discount)*(1+tax)
+
+print(net_price(350,0.5,0.2))
+print(net_price(350,0.5,0.2))
